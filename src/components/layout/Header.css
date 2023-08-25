@@ -1,5 +1,5 @@
 header {
-    background: rgb(43, 37, 37);
+    background: rgb(255, 255, 255);
     height: 50px;
     color: #FFF;
     display: flex;
@@ -8,8 +8,9 @@ header {
     padding: 0 20px;
 }
 
-header h1{
+#logo{
     margin: 0;
+    max-width: 200px;
 }
 
 header nav ul{
@@ -24,6 +25,6 @@ header nav ul li{
 }
 
 header nav ul li a{
-    color: #FFF;
+    color: #2e2e2e;
     text-decoration: none;
 }

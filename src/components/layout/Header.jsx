@@ -3,7 +3,7 @@ import './Header.css'
 const Header = () => {
   return (
     <header>
-        <h1>Coffee & Mountain</h1>
+          <img id="logo" src="../public/VolleyChampPNG.png" alt="VolleyChamp" />
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
