@@ -1,0 +1,15 @@
+#main {
+    display: flex;
+    gap: 20px;
+    margin: 20px auto;
+    width: 920px;
+}
+
+#root {
+    background: rgb(124, 98, 98);
+}
+
+* {
+    font-family: math;
+}
+

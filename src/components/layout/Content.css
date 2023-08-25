@@ -1,0 +1,10 @@
+#content {
+    width: 700px;
+    height: 500px;
+    background: rgb(230, 220, 220);
+    border-top: 3px solid rgb(43, 37, 37);
+}
+
+#content h1 {
+    padding-left: 30px;
+}
