@@ -1,9 +1,10 @@
 import "./Sidebar.css"
+import { Link } from "react-router-dom"
 
 const Sidebar = () => {
   return (
     <div id="sidebar">
-      <h3>Sidebar</h3>
+      <Link to="/campeonatos">Campeonatos</Link>
     </div>
   )
 }

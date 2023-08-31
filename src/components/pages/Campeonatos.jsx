@@ -3,14 +3,14 @@ import Sidebar from "../layout/Sidebar"
 import Content from "../layout/Content"
 import Footer from "../layout/Footer"
 
-const Home = () => {
+const Campeonatos = () => {
   return (
     <>
       <Header />
       <div id="main">
         <Sidebar />
         <Content>
-          <h1>Homeee</h1>
+          <h1>Campeonatos</h1>
         </Content>
       </div>
       <Footer />
@@ -18,4 +18,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Campeonatos

@@ -9,3 +9,13 @@ h3 {
     display: flex;
     justify-content: center;
 }
+
+#sidebar a{
+    color: #2e2e2e;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding-left: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
