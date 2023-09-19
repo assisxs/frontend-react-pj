@@ -1,13 +1,13 @@
 import './CardUser.css'
 
-const CardUser = () => {
+const CardUser = ({ user }) => {
   return (
     <div className="card-user">
-        <img src="https://avatars.githubusercontent.com/u/126916518?v=4" alt="Raissa Assis" />
-        <div>
-            <h3>Raissa Assis</h3>
-            <span>raissaassis@gmai.com</span>
-        </div>
+      <img src={user.photo} alt={user.nome} />
+      <div>
+        <h3>{user.nome}</h3>
+        <span>{user.email}</span>
+      </div>
     </div>
   )
 }

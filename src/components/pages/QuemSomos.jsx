@@ -4,6 +4,18 @@ import Content from "../layout/Content"
 import Footer from "../layout/Footer"
 import CardUser from "../ui/CardUser"
 
+const users = [
+  {
+    nome: "Raissa",
+    email: "raissaassis@gmail.com",
+    photo: "https://avatars.githubusercontent.com/u/126916518?v=4"
+  },
+  {
+    nome: "Renan Cavichi",
+    email: "renancavichi@gmail.com",
+    photo: "https://avatars.githubusercontent.com/u/4259630?v=4"
+  }
+]
 
 const QuemSomos = () => {
   return (
@@ -13,9 +25,11 @@ const QuemSomos = () => {
         <Sidebar />
         <Content>
           <h1>Quem Somos</h1>
-          <CardUser />
-          <CardUser />
-          <CardUser />
+          {
+            users.map((user) => {
+              return <CardUser user={user} />
+            })
+          }
         </Content>
       </div>
       <Footer />
