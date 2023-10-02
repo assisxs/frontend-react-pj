@@ -1,8 +1,9 @@
 .card-user {
-    width: 300px;
+    width: 400px;
     border: 1px solid #CCC;
     border-radius: 15px;
-    background: rgb(241, 232, 232);
+    background: rgb(233, 233, 233);
+    ;
     display: flex;
     gap: 15px;
     align-items: center;
@@ -18,6 +19,8 @@
 
 .card-user div h3{
     margin: 0;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .card-user div span {
