@@ -3,12 +3,12 @@
     border: 1px solid #CCC;
     border-radius: 15px;
     background: rgb(233, 233, 233);
-    ;
     display: flex;
     gap: 15px;
     align-items: center;
     padding: 10px;
     margin: 15px;
+    position: relative;
 }
 
 .card-user img {
@@ -17,12 +17,37 @@
     border-radius: 50%;
 }
 
-.card-user div h3{
+.card-user div h3 {
     margin: 0;
     display: flex;
     justify-content: flex-start;
 }
 
 .card-user div span {
-    color:black;
+    color: black;
+}
+
+.card-user .icon-edit {
+    position: absolute;
+    top: 6px;
+    right: 30px;
+    cursor: pointer;
+    padding: 5px;
+    width: 26px;
+    height: 26px;
+}
+
+.card-user .icon-trash {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    cursor: pointer;
+    padding: 5px;
+    width: 26px;
+    height: 26px;
+    color: rgb(255, 92, 92);
+}
+
+.card-user .infos {
+    max-width: 250px;
 }
