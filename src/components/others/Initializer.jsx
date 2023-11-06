@@ -10,7 +10,7 @@ const Initializer = () => {
     const [isLoading, setIsLoading] = useState(true)
 
     const checkLogin = async (event) => {
-        const response = await fetch('http://localhost:3300/auth/login-token',{
+        const response = await fetch('http://localhost:3000/auth/login-token',{
           method: 'GET',
           headers: {
             'Content-Type': 'application/json'
