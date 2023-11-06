@@ -24,7 +24,7 @@ const Header = () => {
       pass: event.target.pass.value,
     }
 
-    const response = await fetch('http://localhost:3300/auth/login', {
+    const response = await fetch('http://localhost:3000/auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -52,7 +52,7 @@ const Header = () => {
   }
 
   const handleLogout = async () => {
-    const response = await fetch('http://localhost:3300/auth/logout', {
+    const response = await fetch('http://localhost:3000/auth/logout', {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json'
